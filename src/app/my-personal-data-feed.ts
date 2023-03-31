@@ -4,7 +4,7 @@ export const PERSONAL_DATA: PersonalData = {
     "name": "Cristian Mosquera",
     "profession": "BackEnd Developer",
     "address": "Medellin, Colombia.",
-    "avatar": "../../assets/picture.jpg",
+    "avatar": "/assets/picture.jpg",
     "bio":`I'm an Electronic engineering student and a web developer focused on backend. I have a great passion for
     building systems and I focus on deliver clean, robust, and testable software as possible. I keep learning about
     how to deliver high scalable and maintainable software.
