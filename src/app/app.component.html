@@ -1,0 +1,36 @@
+
+<div class="App">
+
+  <div class="Main container" >
+
+    <div class="Main-container columns">
+
+      <aside class="Sidebar column is-one-third">
+        <div class="Sidebar-container">
+          <app-about 
+            [avatar]="personalData.avatar" 
+            [name]="personalData.name"
+            [profession]="personalData.profession"
+            [bio]="personalData.bio"
+            [address]="personalData.address"
+            [social]="personalData.social">
+          </app-about>
+        </div>
+      </aside>
+      
+      <app-personal-info
+        [education]="personalData.education"
+        [experience]="personalData.experience"
+        [skills]="personalData.skills"
+        [languages]="personalData.languages"
+      ></app-personal-info>
+
+    </div>
+    
+  </div>
+
+  <app-footer></app-footer>
+
+</div>
+
+<!-- <router-outlet></router-outlet> -->

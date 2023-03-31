@@ -1,0 +1,29 @@
+<div class="About">
+    <div class="About-container">
+
+      <div class="About-avatar">
+        <figure>
+            <img [src]="avatar" [alt]="name" />
+        </figure>
+      </div>
+
+      <div class="About-name has-text-link">
+        <h2>{{name}}</h2>
+      </div>
+
+      <div class="About-profession has-text-link">
+        <p>{{profession}}</p>
+      </div>
+
+      <div class="About-desc">
+        {{bio}}
+      </div>
+
+      <div class="About-location">
+        {{address}}
+      </div>
+
+      <app-social-info [social]="social"></app-social-info>
+
+    </div>
+</div>
