@@ -1,0 +1,12 @@
+<div class="Education">
+    
+    <h2 class="Info-title title is-4">
+        Education
+    </h2>
+    
+    <div class='item' *ngFor="let item of education; index as i">
+        <h3>{{item.degree}} @ {{item.institution}} - <span>{{item.endDate}}</span></h3>
+        <p>{{item.description}}</p>
+    </div>
+     
+</div>

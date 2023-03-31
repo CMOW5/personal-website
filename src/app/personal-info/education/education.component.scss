@@ -1,0 +1,19 @@
+.Education {
+    margin-bottom: 2rem;
+}
+
+.Info-title {
+    color: #dd4814 !important;
+    text-align: center;
+}
+  
+@media (min-width:641px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    ul.info-list {
+      margin-left: 2rem;
+    }
+  
+    .Info-title {
+      text-align: left;
+    }
+}
+  
