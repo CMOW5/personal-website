@@ -1,27 +1,27 @@
-.About-name, .About-profession, .About-location   {
+.about-name, .about-profession, .about-location {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
   
-.About {
+.about {
     text-align: center;
 }
   
-.About-avatar {
+.about-avatar {
     padding: .5em 0 0 0;
 }
   
-.About-avatar img {
+.about-avatar img {
     border-radius: 100%;
-    width: 10rem;
-    height: 10rem;
+    width: 11rem;
+    height: 11rem;
     border: 0.2rem solid #dd4814;
     margin: 0 auto;
     display: block;
     box-shadow:  0 0 10px  rgba(0,0,0,0.6);
 }
   
-.About-name h2 {
+.about-name h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     letter-spacing: 1.2px;
@@ -29,35 +29,24 @@
     color: #dd4814;
 }
   
-.About-profession p {
+.about-profession p {
     margin: .2em 0 1em 0;
     letter-spacing: 1.6px;
     font-weight: 300;
     color: #dd4814;
 }
   
-.About-desc {
+.about-bio {
     color: #757575;
     font-size: 1em;
     font-weight: 400;
     margin: 0 0 1em 0;
 }
   
-.About-location {
+.about-location {
     font-size: 1em;
     font-weight: 400;
     color: #757575;
     margin: 0 0 1em 0;
-}
-  
-.About-contact {
-    font-size: 1em;
-    font-weight: 400;
-    color: #757575;
-    margin: 0 0 1em 0;
-}
-  
-.About-contact span {
-    margin-left: 0.2rem;
 }
   
