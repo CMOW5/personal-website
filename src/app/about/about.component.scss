@@ -7,18 +7,29 @@
     text-align: center;
 }
   
-.about-avatar {
-    padding: .5em 0 0 0;
-}
-  
-.about-avatar img {
-    border-radius: 100%;
-    width: 11rem;
-    height: 11rem;
+.about-avatar { 
+    display: inline-block; 
+    position: relative; 
+    border-radius: 50%; 
     border: 0.2rem solid #dd4814;
-    margin: 0 auto;
-    display: block;
-    box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+    box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    width: 13rem; 
+    height: 13rem; 
+    overflow: hidden; 
+    background-color: white; // nasty little hack to center the image
+                               // see the comment below
+
+} 
+
+.about-avatar img { 
+    width: auto; 
+    height: auto;
+    margin-right: -1rem; // nasty little hack to center the image
+                         // since the photo itself is not well centered, so I had
+                         // to move it to the right just a bit. However, this makes the container
+                         // to display the gap in another color which is why I'm setting 
+                         // the background-color: white; in the parent container (div class=about-avatar)
+                         // and very please Cristian, buy yourself a decent CSS course -.-
 }
   
 .about-name h2 {
