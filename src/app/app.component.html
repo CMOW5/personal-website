@@ -1,7 +1,9 @@
 
-<div class="app" >
+<app-loader *ngIf="!personalData" ></app-loader>
+
+<div *ngIf="personalData" class="app" >
     
-    <div class="columns">
+    <div class="columns is-variable is-7">
 
       <aside class="column is-one-third">
         
