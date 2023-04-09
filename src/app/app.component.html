@@ -1,12 +1,12 @@
 
-<div class="App">
+<app-loader *ngIf="!personalData" ></app-loader>
 
-  <div class="Main container" >
+<div *ngIf="personalData" class="app" >
+    
+    <div class="columns is-variable is-7">
 
-    <div class="Main-container columns">
-
-      <aside class="Sidebar column is-one-third">
-        <div class="Sidebar-container">
+      <aside class="column is-one-third">
+        
           <app-about 
             [avatar]="personalData.avatar" 
             [name]="personalData.name"
@@ -15,7 +15,7 @@
             [address]="personalData.address"
             [social]="personalData.social">
           </app-about>
-        </div>
+        
       </aside>
       
       <app-personal-info
@@ -26,8 +26,6 @@
       ></app-personal-info>
 
     </div>
-    
-  </div>
 
   <app-footer></app-footer>
 

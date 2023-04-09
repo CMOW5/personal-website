@@ -1,14 +1,14 @@
 
-<div class="Experience">
+<div class="main-item-title">
     
-    <h2 class="Info-title title is-4">
+    <h2 class="title is-4">
         Experience
     </h2>
     
-    <div class='item' *ngFor="let exp of experience">
+    <div class='list-item-title' *ngFor="let exp of experience">
         <h3>{{exp.jobTitle}} @ {{exp.company}} <span>{{exp.startDate}} - {{exp.endDate}}</span></h3>
-        <ul class="info-list" *ngFor="let responsibility of exp.responsibilities">
-            <li>
+        <ul class="list-item-description">
+            <li *ngFor="let responsibility of exp.responsibilities">
                 {{responsibility}}
             </li>
         </ul>
