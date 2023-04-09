@@ -1,12 +1,10 @@
 
-<div class="App">
-
-  <div class="container" >
-
+<div class="app" >
+    
     <div class="columns">
 
       <aside class="column is-one-third">
-        <div>
+        
           <app-about 
             [avatar]="personalData.avatar" 
             [name]="personalData.name"
@@ -15,7 +13,7 @@
             [address]="personalData.address"
             [social]="personalData.social">
           </app-about>
-        </div>
+        
       </aside>
       
       <app-personal-info
@@ -26,8 +24,6 @@
       ></app-personal-info>
 
     </div>
-    
-  </div>
 
   <app-footer></app-footer>
 
