@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { PersonalData } from './personal-data';
 import { environment } from '../environments/environment';
 
-const PERSONAL_DATA_URL = 'https://dzqumxegoj3l9.cloudfront.net/personal-data.json'
+const PERSONAL_DATA_URL = 'https://dzqumxegoj3l9.cloudfront.net/personal-data.json' + '?v=' + environment.buildVersion // cache bust after a release
 
 @Component({
   selector: 'app-root',
